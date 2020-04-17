@@ -45,7 +45,7 @@
       tower_verify_ssl: no
       state: present
       job_type: run
-      playbook: site-3tier-app.yml
+      playbook: aws_prod_3tierapp.yml
       project: "Homework Assignment"
     tags :
       - update.credential.prod.template
